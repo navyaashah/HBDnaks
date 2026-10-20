@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, Nakul</title>
+    <meta
+      name="description"
+      content="A birthday celebration page for Nakul with a cricket-inspired look."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="brand">Nakul's 25</div>
+          <button id="surpriseBtn" class="ghost-btn">Reveal surprise</button>
+        </nav>
+
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">A special day for a special legend</p>
+            <h1>Happy 25th Birthday, Nakul!</h1>
+            <p class="subtitle">
+              May your year be filled with big wins, unforgettable memories, and a
+              thousand reasons to smile.
+            </p>
+            <div class="cta-row">
+              <a href="#memories" class="primary-btn">See the memories</a>
+              <a href="#message" class="secondary-btn">Read the note</a>
+            </div>
+          </div>
+
+          <div class="hero-art">
+            <div class="photo-frame">
+              <img src="NAKS%20TURNS%2025.png" alt="Nakul birthday celebration" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="message" class="message-panel">
+          <div class="section-tag">Birthday note</div>
+          <h2>To the man who turns every moment into a celebration</h2>
+          <p>
+            From your team, your friends, and everyone who loves your energy — this
+            is your reminder that you are admired, respected, and truly one of a kind.
+            Here's to the next chapter: bigger dreams, louder cheers, and even sweeter
+            victories.
+          </p>
+        </section>
+
+        <section id="memories" class="gallery-section">
+          <div class="section-tag">Memory lane</div>
+          <div class="gallery-grid">
+            <figure class="card tall">
+              <img src="MSD.png" alt="MS Dhoni inspired tribute" />
+              <figcaption>Legacy energy</figcaption>
+            </figure>
+            <figure class="card">
+              <img src="VIRAT.png" alt="Virat inspiration" />
+              <figcaption>Fearless passion</figcaption>
+            </figure>
+            <figure class="card">
+              <img src="player.png" alt="Player moments" />
+              <figcaption>Game face</figcaption>
+            </figure>
+            <figure class="card wide">
+              <img src="nc%20happy_.png" alt="Happy birthday graphic" />
+              <figcaption>Pure joy</figcaption>
+            </figure>
+            <figure class="card">
+              <img src="bat.png" alt="Cricket bat" />
+              <figcaption>Power and precision</figcaption>
+            </figure>
+            <figure class="card">
+              <img src="stump.png" alt="Stump illustration" />
+              <figcaption>Winning spirit</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="quote-panel">
+          <p>
+            “Champions are not made in the gyms. Champions are made from something they
+            have deep inside them — a desire, a dream, a vision.”
+          </p>
+          <span>— Muhammad Ali</span>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Made with love for Nakul • 25 years of greatness</p>
+      </footer>
+    </div>
+
+    <div id="confettiLayer" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
